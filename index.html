@@ -6,6 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 	<link rel="stylesheet" href="CSS/font-awesome.min.css">
+	<link rel="stylesheet" href="CSS/animate.min.css">
 	<link rel="stylesheet" href="CSS/main.css">
 	<title>ION</title>
 	<style> .colortext{
@@ -14,10 +15,10 @@
 </head>
 <body style="">
 	<div style="width: 100%; height: 35px">
-		<div style="float: left; padding-left: 20px"><p>ION</p></div>
+		<div class="wow fadeInLeft" style="float: left; padding-left: 20px"><p>ION</p></div>
 		<div>
 			<nav>
-				<ul class="menu">
+				<ul class="menu wow fadeInRight">
 					<li><a href="#">HOME</a></li>
 					<li><a href="#">left sidebar</a></li>
 					<li><a href="#">right sidebar</a></li>
@@ -32,18 +33,18 @@
 		<div class="clearfix visible-md visible-lg">
 		</div>
 		<div class="titles">
-			<h1>THIS IS ION</h1>
-			<h3>A free responsive template by <span class="colortext">TEMPLATED</span></h3>
+			<h1 class="wow fadeInLeft">THIS IS ION</h1>
+			<h3 class="wow fadeInRight">A free responsive template by <span class="colortext">TEMPLATED</span></h3>
 		</div>
-		<div style="float: left"><a href="#" class="button btn btn-primary">SIGN UP</a></div>
-		<div style="float: right"><a href="#" class="button1 btn btn-outline-secondary" >LEARN MORE</a></div>
+		<div style="float: left"><a href="#" class="button btn btn-primary wow rollIn">SIGN UP</a></div>
+		<div style="float: right"><a href="#" class="button1 btn btn-outline-secondary wow slideInUp" >LEARN MORE</a></div>
   </div>
 	<br>
 </header>
 <div class="progress" style="height: 20px;">
 <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
-	<section>
+	<section class="wow bounceInUp">
 		<div class="container">
 			<div class="title">
 				<h2>ipsum feugiat consequat</h2>
@@ -71,7 +72,7 @@
 	<div class="progress" style="height: 20px;">
 <div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
-	<section class="black">
+	<section class="black wow rollIn ">
 		<div class="container1">
 			<div class="title">
 				<h2>commodo accumsan aliquam</h2>
@@ -96,7 +97,7 @@
 		  <div class="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
 		</div>
 	</section>
-	<section>
+	<section class="wow zoomInLeft ">
 		<div class="container2">
 			<div class="clearfix visible-md visible-lg">
 				<div class="cont_item60">
@@ -126,7 +127,7 @@
 	<div class="progress" style="height: 20px;">
 <div class="progress-bar progress-bar-striped bg-warning progress-bar-animated" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
-	<section class="grey">
+	<section class="grey wow fadeIn">
 		<div class="container2">
 			<div class="clearfix visible-md visible-lg">
 				<div class="cont_35">
@@ -178,9 +179,12 @@
 				</div>
 			</div>
 		</div>
-
 	</footer>
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="JS/wow.min.js"></script>
+<script>
+ new WOW().init();
+</script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 </body>

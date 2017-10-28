@@ -3,6 +3,13 @@ header{
   height: 460px;
 }
 
+body > div {
+ -webkit-transition: all 0.3s ease;
+ -moz-transition: all 0.3s ease;
+ -o-transition: all 0.3s ease;
+ transition: all 0.3s ease;
+}
+
 
 
 .container {
@@ -346,6 +353,10 @@ section{
   margin-bottom: 50px;
   color: #808080;
   text-transform: uppercase;
+
+}
+.circle:hover {
+border-radius: 70%;
 }
 
 .grey{
