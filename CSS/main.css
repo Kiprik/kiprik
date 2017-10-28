@@ -46,7 +46,7 @@ margin: 0;
 
 h1{
   margin-top: 25px;
-  margin-bottom: -5px;
+  margin-bottom:15px;
   font-size: 56px;
   color: #fff;
   text-transform: uppercase;
@@ -83,7 +83,7 @@ h1{
   font-family: Arial;
   margin: 0 auto;
   margin-top: 50px;
-  margin-left: 250px;
+  margin-left: 225px;
   color: #D3D3D3;
 }
 
@@ -102,7 +102,7 @@ h1{
   font-size: 18px;
   font-family: Arial;
   margin: 0 auto;
-  margin-right: 250px;
+  margin-right: 225px;
   margin-top: 50px;
   color: #D3D3D3;
 }
@@ -124,7 +124,7 @@ h1{
   margin: 0 auto;
   margin-right: 0;
   margin-top: 0;
-  color: #D3D3D3;
+  color: white;
   background-color: #4682B4;
 }
 
@@ -155,6 +155,7 @@ section{
 
 .black{
   background:  #141519;
+  height: 1000px
 }
 
 .black h2{
@@ -175,7 +176,7 @@ section{
 
 .cont_item30{
   float: left;
-  width: 25%;
+  width: 30%;
   text-align: center;
   margin-right: 5%;
   background: white;
@@ -358,7 +359,8 @@ section{
   margin-right: 5%;
   margin-top: -65px;
   color:  #808080;
-width: 250px;
+width: 300px;
+
 }
 
 .cont_35a{
